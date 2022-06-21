@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.sectione{
+width: 100%;
+height: 100vh;
+background-image: url(images/background.jpg);
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+.sectione h2, .sectiontwo h2, .sectiothree h2, .sectionfour h2{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 200px;
+    height: 30px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+.paragraph{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+.sectiontwo{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backgroundthree.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    }
+.sectiothree{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backgroundfour.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    }
+    .paragraph h3{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+.sectionfour{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backgroundtwo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+@media only screen  and (max-width: 600px){
+    
+        .sectione h2, .sectiontwo h2, .sectiothree h2, .sectionfour h2{
+            position: relative;
+            left: 150px;
+            top: 300px;
+            width: 200px;
+            height: 30px;
+            background-color: aliceblue;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            
+        }
+        .paragraph{
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            padding-top: 50px;
+        }
+}
